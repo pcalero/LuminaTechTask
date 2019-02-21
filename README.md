@@ -47,7 +47,9 @@ A new page will be open.
 With npm, Angular 6.1.10 and Google Chrome installed. In directory where LuminaTechTaskApp is stored.
 
 Run the tests: 
+```
     $ ng test
+```
 
 ## Authors
 
