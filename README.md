@@ -19,7 +19,7 @@ Install:
     npm install
 ```
 
-Tun: 
+Run: 
 ```
     $ npm start
 ```
