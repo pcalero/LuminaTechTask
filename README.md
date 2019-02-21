@@ -15,10 +15,14 @@ LuminaTechTaskApp needs Angular 6.1.10
 With npm and node.js v9.8.0 installed. In directory where LuminaTechTaskRouter is stored.
 
 Install:
-    $ npm install
+```
+    npm install
+```
 
 Tun: 
+```
     $ npm start
+```
 
 ### Installing LuminaTechTaskApp
 
@@ -27,10 +31,15 @@ With npm, Angular 6.1.10 and Google Chrome installed. In directory where LuminaT
 * If LuminaTechTaskRouter is deployed in other port than 3000, it should be updated in 'THREE_OF_LIFE_API_BASE_URL' param of /LuminaTechTaskApp/src/app/common/constants.ts
 
 Install:
+```
     $ npm install
+```
 
-Run: 
+Run:
+```
     $ ng serve -o
+```
+
 A new page will be open.
 
 ## Running the tests
