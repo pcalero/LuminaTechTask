@@ -16,7 +16,7 @@ With npm and node.js v9.8.0 installed. In directory where LuminaTechTaskRouter i
 
 Install:
 ```
-    npm install
+    $ npm install
 ```
 
 Run: 
