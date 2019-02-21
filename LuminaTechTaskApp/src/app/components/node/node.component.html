@@ -1,0 +1,12 @@
+
+  
+  <span (click)="showChildNodes(node)" ngbPopover="{{node?.taxon?.unique_name}} {{node?.taxon?.ott_id}} {{node?.taxon?.rank}} {{unique_name}}" popoverTitle="Node {{node?.node_id}}" triggers="mouseenter:mouseleave">
+    {{node?.node_id}}
+  </span>
+
+
+  <ul>
+    <li *ngFor="let child of node?.children">
+      <app-node [node]="child"></app-node>
+    </li>
+  </ul>

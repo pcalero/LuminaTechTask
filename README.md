@@ -1,27 +1,49 @@
 # LuminaTechTask
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+This is a simple Angular test app and NodeJS router.
 
-## Development server
+API used is https://github.com/OpenTreeOfLife/germinator/wiki/Synthetic-tree-API-v3
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Prerequisites
 
-## Code scaffolding
+LuminaTechTaskRouter needs node.js v9.8.0
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+LuminaTechTaskApp needs Angular 6.1.10
 
-## Build
+### Installing LuminaTechTaskRouter
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+With npm and node.js v9.8.0 installed. In directory where LuminaTechTaskRouter is stored.
 
-## Running unit tests
+Install:
+    $ npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Tun: 
+    $ npm start
 
-## Running end-to-end tests
+### Installing LuminaTechTaskApp
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+With npm, Angular 6.1.10 and Google Chrome installed. In directory where LuminaTechTaskApp is stored.
 
-## Further help
+* If LuminaTechTaskRouter is deployed in other port than 3000, it should be updated in 'THREE_OF_LIFE_API_BASE_URL' param of /LuminaTechTaskApp/src/app/common/constants.ts
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Install:
+    $ npm install
+
+Run: 
+    $ ng serve -o
+A new page will be open.
+
+## Running the tests
+
+With npm, Angular 6.1.10 and Google Chrome installed. In directory where LuminaTechTaskApp is stored.
+
+Run the tests: 
+    $ ng test
+
+## Authors
+
+* **Pedro Calero** - *Initial work* - (https://github.com/pcalero/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
